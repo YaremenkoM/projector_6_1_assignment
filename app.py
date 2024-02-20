@@ -3,6 +3,7 @@ def main():
     print("Available operations: ")
     print("1 - Add")
     print("2 - Subtract")
+    print("3 - Multiplication")
 
     operation_type = input("Enter operation number: ")
 
@@ -15,6 +16,8 @@ def main():
             result = first_number + second_number
         elif operation == 2:
             result = first_number - second_number
+        elif operation == 3:
+            result = first_number * second_number
         else:
             print("There is no such an operation.")
 
