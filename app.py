@@ -3,7 +3,7 @@ def main():
     print("Available operations: ")
     print("1 - Add")
     print("2 - Subtract")
-    print("3 - Multiplication")
+    print("3 - Multiply")
 
     operation_type = input("Enter operation number: ")
 
