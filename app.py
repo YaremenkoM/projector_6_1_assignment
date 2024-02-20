@@ -4,6 +4,8 @@ def main():
     print("1 - Add")
     print("2 - Subtract")
 
+    print("4 - Division")
+
     operation_type = input("Enter operation number: ")
 
     try:
@@ -15,6 +17,8 @@ def main():
             result = first_number + second_number
         elif operation == 2:
             result = first_number - second_number
+        elif operation == 4:
+            result = first_number / second_number
         else:
             print("There is no such an operation.")
 
